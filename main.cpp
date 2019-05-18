@@ -17,7 +17,7 @@
 #endif
 
 #if defined(__WIIU__)
-#define DEFAULT_REPO "https://wiiubru.com/appstore"
+#define DEFAULT_REPO "https://nintendobrew.com/WiiUStoreplus/"
 #else
 #define DEFAULT_REPO "https://switchbru.com/appstore"
 #endif

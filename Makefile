@@ -7,7 +7,7 @@ all:
 	@echo "In short, you can add \"-f Makefile.switch\" or \"-f Makefile.wiiu\" to build apps for either of those targets."
 	@echo
 	@echo "Defaulting to the Switch build:"
-	make -f Makefile.switch
+	make -f Makefile.wiiu
 
 clean:
-	make -f Makefile.switch clean
+	make -f Makefile.wiiu clean

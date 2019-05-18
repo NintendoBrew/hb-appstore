@@ -1,5 +1,5 @@
 targets = [ "//:hb-appstore" ]
 
 [[dependency]]
-package = "github.com/vgmoose/libget"
+package = "github.com/NintendoBrew/libget"
 version = "*"

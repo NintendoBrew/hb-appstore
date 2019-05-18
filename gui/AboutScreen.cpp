@@ -45,11 +45,11 @@ AboutScreen::AboutScreen(Get* get)
 	feedback->action = std::bind(&AboutScreen::launchFeedback, this);
 	this->elements.push_back(feedback);
 
-	TextElement* title = new TextElement("Homebrew App Store", 35, &black);
+	TextElement* title = new TextElement("Homebrewstore+", 35, &black);
 	title->position(MARGIN, 40);
 	this->elements.push_back(title);
 
-	TextElement* subtitle = new TextElement("by fortheusers.org", 25, &black);
+	TextElement* subtitle = new TextElement("www.nintendobrew.com", 25, &black);
 	subtitle->position(MARGIN, 80);
 	this->elements.push_back(subtitle);
 
