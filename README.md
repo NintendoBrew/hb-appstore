@@ -47,7 +47,7 @@ sudo dkp-pacman -S wut-linux wiiu-sdl2 devkitPPC wiiu-libromfs wiiu-sdl2_gfx wii
 ```
 4. Once the environment is setup:
 ```
-git clone --recursive https://github.com/vgmoose/hb-appstore.git
+git clone --recursive https://github.com/NintendoBrew/hb-appstore.git
 cd hb-appstore
 make -f Makefile.wiiu
 ```
@@ -60,7 +60,7 @@ This project is moving towards [Buck](https://github.com/facebook/buck) to build
 1. Install a [precompiled Buck](https://github.com/facebook/buck/releases), and [precompiled Buckaroo](https://github.com/LoopPerfect/buckaroo/releases) for your platform, or build them from source
 2. Run the following:
 ```
-git clone https://github.com/vgmoose/hb-appstore.git
+git clone https://github.com/NintendoBrew/hb-appstore.git
 cd hb-appstore
 buckaroo install
 buck build :hb-appstore
@@ -72,7 +72,7 @@ Currently sdl2 is manually linked in the `.buckconfig`, as a buckaroo port is no
 There's a separate makefile for building the SDL2 app for PC, if you don't want to try the Buck build. Below instructions are for Ubuntu, but should be similar on other platforms:
 ```
 sudo apt-get install libsdl2-dev libsdl2-ttf-dev libsdl2-image-dev libsdl2-gfx-dev zlib1g-dev gcc g++ git
-git clone --recursive https://github.com/vgmoose/hb-appstore.git
+git clone --recursive https://github.com/NintendoBrew/hb-appstore.git
 cd hb-appstore
 make -f Makefile.pc
 ```
@@ -87,7 +87,7 @@ This software is licensed under the GPLv3.
 - [crc32](https://github.com/crc-32)
 
 #### Contributing
-If you have some functionality that you'd like to see feel free to discuss it on an [issues page](https://github.com/vgmoose/hb-appstore/issues), or if you already have an implementation or desire that you'd like to see, feel free to fork and make a [pull request](https://github.com/vgmoose/hb-appstore/pulls)!
+If you have some functionality that you'd like to see feel free to discuss it on an [issues page](https://github.com/vgmoose/hb-appstore/issues), or if you already have an implementation or desire that you'd like to see, feel free to fork and make a [pull request](https://github.com/NintendoBrew/hb-appstore/pulls)!
 
 It's not required, but running a clang-format before making a PR helps to clean up styling issues:
 ```
